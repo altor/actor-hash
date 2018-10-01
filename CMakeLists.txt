@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.6)
+project(actor_hash)
+find_package(GTest)
+include_directories(${GTEST_INCLUDE_DIR})
+add_subdirectory(src)
+add_subdirectory(tests)
