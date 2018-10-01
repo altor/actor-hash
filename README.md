@@ -1,12 +1,12 @@
-# compilation
+# Compilation
 	cmake ./
 	make
 
 # Utilisation
 
 - lancement du serveur : `src/server &`
-- arret du serveur : src/cli 0
-- envois de coordonée geographique a encoder : src/cli 1 long lat
+- arrêt du serveur : src/cli 0
+- envoi des coordonnées géographiques à encoder : src/cli 1 long lat
 	
 # Test
 	
