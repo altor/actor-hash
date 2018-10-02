@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.6)
 project(actor_hash)
-find_package(GTest)
+set(CMAKE_C_FLAGS "-std=c11")
+find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIR})
 add_subdirectory(src)
 add_subdirectory(tests)

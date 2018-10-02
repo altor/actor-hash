@@ -5,6 +5,7 @@
 extern "C" {
 #include "../src/utils/utils.h"
 #include "../src/utils/buffer.h"
+#include <errno.h>
 }
 
 
